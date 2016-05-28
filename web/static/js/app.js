@@ -20,7 +20,7 @@ import "phoenix_html"
 
 // import socket from "./socket"
 
-import {Socket} from "deps/phoenix/web/static/js/phoenix"
+import {Socket} from "phoenix"
 
 let message_content   = $("#message_content")
 let messagesContainer = $("#messages")
