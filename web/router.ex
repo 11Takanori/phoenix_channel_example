@@ -17,9 +17,9 @@ defmodule PhoenixChannelExample.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/messages", MessageController
   end
 
-  resources "/messages", MessageController
 
   # Other scopes may use custom stacks.
   # scope "/api", PhoenixChannelExample do
